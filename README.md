@@ -6,84 +6,15 @@ A 3 dB attenuator is a passive RF / microwave circuit used to reduce signal powe
 A 3 dB attenuator can be implemented using different resistor networks (L-pad, T-type, Π-type) designed for a given characteristic impedance (usually 50 Ω or 75 Ω). Like the Standing Waves & SWR report in your EMT&TL material, this document explains the basic theory, design equations, measurement techniques, applications, and key references
 
 
+<img width="500" height="385" alt="Screenshot 2025-11-23 183459" src="https://github.com/user-attachments/assets/7ce64e1f-3e49-4347-9df9-58619864f708" />
+
+
 
 
 # OVERVIEW:
 
-# 3 dB Attenuator (50 Ω System)
 
-This repository documents the theory, design, and applications of a **3 dB attenuator** for a **50 Ω RF system**.  
-A 3 dB attenuator is a passive network that reduces signal power by **half** while maintaining the characteristic impedance at both ports.
-
----
-
-## 1. Basics of Attenuation
-
-For an RF/microwave system with characteristic impedance \( Z_0 \):
-
-- **Power attenuation (in dB)**  
-
-  \[
-  A_\text{dB} = 10 \log_{10}\left(\frac{P_\text{in}}{P_\text{out}}\right)
-  \]
-
-- **Voltage attenuation (in dB)**  
-
-  \[
-  A_\text{dB} = 20 \log_{10}\left(\frac{V_\text{in}}{V_\text{out}}\right)
-  \]
-
-For a **3 dB attenuator**:
-
-- Power ratio  
-
-  \[
-  \frac{P_\text{out}}{P_\text{in}} = 10^{-3/10} \approx 0.5
-  \]
-
-- Voltage ratio (for matched impedances)  
-
-  \[
-  \frac{V_\text{out}}{V_\text{in}} = 10^{-3/20} \approx 0.707
-  \]
-
-So a 3 dB pad is commonly referred to as a **half-power attenuator**.
-
----
-
-## 2. Voltage Ratio and Design Factor
-
-Define the **voltage attenuation factor**
-
-\[
-K = \frac{V_\text{in}}{V_\text{out}} = 10^{A_\text{dB}/20}
-\]
-
-For \( A_\text{dB} = 3 \):
-
-\[
-K = 10^{3/20} \approx 1.4125
-\]
-
-All resistor calculations below assume:
-
-- \( A_\text{dB} = 3 \) dB  
-- \( Z_0 = 50\ \Omega \)  
-- \( K \approx 1.4125 \)
-
----
-
-## 3. L-Pad 3 dB Attenuator (Asymmetrical)
-
-The **L-pad** uses one series and one shunt resistor. It is typically used when the **source** and **load** impedances are known and may be equal or unequal.  
-Here we design for equal 50 Ω source and load.
-
-### 3.1. Topology
-
-```text
-Vin ---- Rs ----+---- Vout
-                |
-                Rp
-                |
-               GND
-
+<img width="584" height="359" alt="Screenshot 2025-11-23 181520" src="https://github.com/user-attachments/assets/eeaf2d7f-76a4-42d9-90b3-b2c1c20f7aa0" />
+<img width="713" height="436" alt="Screenshot 2025-11-23 182737" src="https://github.com/user-attachments/assets/d82c1017-9df4-4bf2-9740-bec2abee8df7" />
+<img width="1276" height="601" alt="Two_port_unbalanced_right_to_left" src="https://github.com/user-attachments/assets/824a09c5-1c88-411f-8136-a0d96c07d70b" />
+<img width="1276" height="601" alt="Two_port_unbalanced_left_to_right" src="https://github.com/user-attachments/assets/78595559-dbb5-4fe9-b0ce-a121a08d4317" />
