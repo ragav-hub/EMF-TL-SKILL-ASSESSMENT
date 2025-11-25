@@ -44,7 +44,8 @@ L-pad Attenuator:
    
    <img width="468" height="252" alt="image" src="https://github.com/user-attachments/assets/2407502b-5fcc-4d6b-a98c-c31d3304ae73" />
    
-  -> Substitute A = 3dB and Z0 to find numerical values
+   -> Substitute A = 3dB and Z0 to find numerical values
+
 ---
 T-Pad Attenuator:
 
@@ -80,6 +81,7 @@ Step Attenuator:
 Fixed Attenuator: 
 
 <img width="220" height="316" alt="image" src="https://github.com/user-attachments/assets/21296614-91ae-4aef-8d29-300af7b3428a" />
+
 
 ------
 # MEASUREMENT OF 3 dB ATTENUATOR PERFORMANCE:
