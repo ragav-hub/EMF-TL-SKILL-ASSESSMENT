@@ -25,17 +25,14 @@ A 3 dB attenuator can be implemented using different resistor networks (L-pad, T
      
   -> Design equations for attenuation A (in linear voltage ratio K = Vin/Vout):
   
-
   <img width="173" height="170" alt="image" src="https://github.com/user-attachments/assets/4d1a4bbd-f383-475d-860f-a82c2a43ce44" />
   
-
   -> For A = 3 dB, K ~ 1.414, so numerical values can be obtained for a chosen Z0.
 
 ---
 L-pad Attenuator:
 
 <img width="364" height="219" alt="Screenshot 2025-11-23 181520" src="https://github.com/user-attachments/assets/eeaf2d7f-76a4-42d9-90b3-b2c1c20f7aa0" />
-
 
 ---
 # 2. Symmetrical T-Pad Attenuator
@@ -44,23 +41,14 @@ L-pad Attenuator:
    -> Input and output ports both see Z0 (bidirectional)
    
    -> Design equations:
-
    
-
    <img width="468" height="252" alt="image" src="https://github.com/user-attachments/assets/2407502b-5fcc-4d6b-a98c-c31d3304ae73" />
    
-
-
   -> Substitute A = 3dB and Z0 to find numerical values
-
 ---
 T-Pad Attenuator:
 
 <img width="467" height="318" alt="image" src="https://github.com/user-attachments/assets/ee35950c-9b56-4efb-add6-a3780f0d4b23" />
-
-
-
-
 
 ---
 # 3. Symmetrical Π-Pad Attenuator
@@ -69,12 +57,11 @@ T-Pad Attenuator:
   -> Equivalent to the T-network but often preferred at higher frequencies 
   
   -> Design equations:
-  
-  
+
 <img width="198" height="142" alt="image" src="https://github.com/user-attachments/assets/8f956feb-e5cc-4fb3-b8ad-a308a3598e13" />
 
 ---
-Π(pi)-Pad Attenuator:
+Π-Pad Attenuator:
 
 <img width="342" height="288" alt="image" src="https://github.com/user-attachments/assets/47830c1d-1fed-4982-923a-4833266069b0" />
 
@@ -84,25 +71,15 @@ T-Pad Attenuator:
   
   -> Step attenuator: Uses multiple sections (e.g., 1 dB, 2 dB, 3 dB, 6 dB) switched in and out; a 3 dB section is a common building block.
 
-
-
 ---
 Step Attenuator:
 
-
-
 <img width="296" height="178" alt="image" src="https://github.com/user-attachments/assets/43cfea3f-1aee-4087-ac77-c4f8d0f5f476" />
-
-
 
 ---
 Fixed Attenuator: 
 
-
-
 <img width="220" height="316" alt="image" src="https://github.com/user-attachments/assets/21296614-91ae-4aef-8d29-300af7b3428a" />
-
-
 
 ------
 # MEASUREMENT OF 3 dB ATTENUATOR PERFORMANCE:
@@ -123,11 +100,7 @@ Fixed Attenuator:
 
    --> Ideal 3 dB attenuator should show ~ 3dB loss across specified frequency range.
 
-
-
 <img width="352" height="248" alt="ChatGPT Image Nov 25, 2025, 09_19_58 AM" src="https://github.com/user-attachments/assets/d9d00f02-248d-4ec4-91d5-b68176a70efd" />
-
-
 
 -----
 2. Using Vector Network Analyzer (VNA)
@@ -140,11 +113,7 @@ Fixed Attenuator:
   
    => S11 and S22 show input and output return loss (indicates how well it is matched to Z0) VNAs also show variation of attenuation with frequency, enabling bandwidth verification.
 
-
-
 <img width="352" height="246" alt="image" src="https://github.com/user-attachments/assets/6851e71f-9c60-41a8-a539-69c1d5706e9d" />
-
-
 
 -----
 3. Using Spectrum Analyzer with Tracking Generator
@@ -165,9 +134,7 @@ Key practical checks:
 => Frequency response (flat attenuation in the required band).
 
 
-
 <img width="356" height="241" alt="image" src="https://github.com/user-attachments/assets/5358d3cf-6250-48bd-8eaf-4c489ac1c9dc" />
-
 
 ------
 # Sample Questions:
@@ -179,7 +146,6 @@ Key practical checks:
 
 ----
 <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/f0458b01-a130-49c0-a535-15482bdb5a59" />
-
 
 ------
 # Applications of 3 dB Attenuators
@@ -234,7 +200,6 @@ Impedence Matching Network (right-to-left):
 Impendence Matching Network (left-to-right):
 
 <img width="476" height="261" alt="Two_port_unbalanced_left_to_right" src="https://github.com/user-attachments/assets/78595559-dbb5-4fe9-b0ce-a121a08d4317" />
-
 
 ----
 # Conclusion
