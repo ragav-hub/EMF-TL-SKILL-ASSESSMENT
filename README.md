@@ -187,9 +187,18 @@ Key practical checks:
     => Helps determine dynamic range and 1 dB compression point of RF amplifiers.
 
 ---
-Frequency Response:
+Frequency response characteristics of 3 dB attenuator across RF spectrum:
+
+<img width="414" height="268" alt="image" src="https://github.com/user-attachments/assets/073186ab-1563-4e76-a078-374cbdc93620" />
 
 <img width="423" height="346" alt="Screenshot 2025-11-23 182737" src="https://github.com/user-attachments/assets/d82c1017-9df4-4bf2-9740-bec2abee8df7" />
+
+<img width="414" height="268" alt="image" src="https://github.com/user-attachments/assets/93c71d58-4980-430f-8996-4e102ffe375b" />
+
+----
+Standing wave pattern:
+
+<img width="414" height="268" alt="image" src="https://github.com/user-attachments/assets/bc6790bf-2c7b-463b-9919-8f90f7bcb804" />
 
 ---
 Impedence Matching Network (right-to-left):
