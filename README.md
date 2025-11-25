@@ -10,10 +10,13 @@ A 3 dB attenuator can be implemented using different resistor networks (L-pad, T
 
 <img width="250" height="160" alt="image" src="https://github.com/user-attachments/assets/5fbe6ae6-5a0a-4d5f-991c-f238f5eeeea4" />
 
+
+
 ----
 # OVERVIEW:
 
 <img width="588" height="319" alt="image" src="https://github.com/user-attachments/assets/6bf1eea0-b41a-4e24-89f9-4fb44f0e13ea" />
+
 
 ---
 # TYPES OF 3 dB ATTENUATOR NETWORKS:
@@ -149,6 +152,7 @@ Key practical checks:
 ----
 <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/f0458b01-a130-49c0-a535-15482bdb5a59" />
 
+
 ------
 # Applications of 3 dB Attenuators
 
@@ -188,6 +192,7 @@ Key practical checks:
     
     => Helps determine dynamic range and 1 dB compression point of RF amplifiers.
 
+
 ---
 Frequency response characteristics of 3 dB attenuator across RF spectrum:
 
@@ -214,6 +219,8 @@ Impendence Matching Network (left-to-right):
 
 <img width="476" height="261" alt="Two_port_unbalanced_left_to_right" src="https://github.com/user-attachments/assets/78595559-dbb5-4fe9-b0ce-a121a08d4317" />
 
+
+
 ----
 # Conclusion
   
@@ -228,6 +235,8 @@ Impendence Matching Network (left-to-right):
   -> 3 dB attenuators are extensively used for level control, protection, impedance matching, isolation, and system testing in RF, microwave, and communication systems.
 
   -> Understanding the design and behavior of 3 dB attenuators is essential for engineers working in RF communication, radar, instrumentation, and microwave circuit design
+
+
 
 ----
 # References
