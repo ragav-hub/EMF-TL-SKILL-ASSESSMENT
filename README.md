@@ -267,3 +267,16 @@ Impendence Matching Network (left-to-right):
 
  [8] Semiconductorforu. (2022). "L-pad Attenuator: Features and Its Applications." Retrieved
  from https://www.semiconductorforu.com/l-pad-attenuator-features-and-its-applications/
+
+
+
+
+
+
+
+
+
+
+
+
+ C = \frac{2\pi \varepsilon L}{\ln\!\left(\dfrac{b}{a}\right)}. \)[][] ## Electric field by Gauss law Take the inner cylinder carrying charge \(+Q\) uniformly, so the linear charge density is \(\lambda = Q/L\).[] Using a cylindrical Gaussian surface of radius \(r\) (with \(a<r<b\)) and length \(L\), symmetry gives a purely radial field of magnitude \(E(r)\), constant over the curved surface.[][] Gauss law gives \[ \oint \mathbf{E}\cdot d\mathbf{A} = E(r)\,(2\pi rL) = \frac{Q_{\text{enc}}}{\varepsilon} = \frac{\lambda L}{\varepsilon}.
